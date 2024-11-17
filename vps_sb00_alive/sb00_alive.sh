@@ -1,11 +1,11 @@
 #!/bin/bash
 #老王原始vps保活脚本：https://github.com/eooce/Sing-box/blob/main/keep_00.sh
-#yutian81修改vps保活脚本：https://github.com/yutian81/serv00-ct8-ssh/blob/main/vps_sb00_alive/sb00_alive.sh
+#yutian81修改vps保活脚本：https://github.com/qmsdh/serv00-vmess-sock5/blob/main/vps_sb00_alive/sb00_alive.sh
 #老王原始serv00四合一无交互脚本：https://github.com/eooce/Sing-box/blob/main/sb_00.sh
-#yutian81修改serv00四合一无交互脚本：https://github.com/yutian81/serv00-ct8-ssh/blob/main/vps_sb00_alive/sb00-sk5.sh
-#yutian81修改serv00四合一有交互脚本：https://github.com/yutian81/serv00-ct8-ssh/blob/main/sb_serv00_socks.sh
+#yutian81修改serv00四合一无交互脚本：https://github.com/qmsdh/serv00-vmess-sock5/blob/main/vps_sb00_alive/sb00-sk5.sh
+#yutian81修改serv00四合一有交互脚本：https://github.com/qmsdh/serv00-vmess-sock5/blob/main/sb_serv00_socks.sh
 #yutian81无交互脚本执行命令的变量为 SCRIPT_URL；有交互脚本执行命令的变量为 REBOOT_URL
-#yutian81-vps保活serv00项目说明：https://github.com/yutian81/serv00-ct8-ssh/blob/main/vps_sb00_alive/README.md
+#yutian81-vps保活serv00项目说明：https://github.com/qmsdh/serv00-vmess-sock5/blob/main/vps_sb00_alive/README.md
 #修改说明：yutian81的版本在老王原始四合一脚本基础上，去掉了 TUIC 协议，增加了 SOCKS5 协议
 
 # 定义颜色
@@ -15,10 +15,10 @@ yellow() { echo -e "\e[1;33m$1\033[0m"; }
 
 # 定义变量
 SCRIPT_PATH="/root/sb00_alive.sh"  # 本脚本路径，不要改变文件名
-SCRIPT_URL="https://raw.githubusercontent.com/yutian81/serv00-ct8-ssh/main/vps_sb00_alive/sb00-sk5.sh"  # 四合一无交互yutian版，含socks5，无tuic
+SCRIPT_URL="https://raw.githubusercontent.com/qmsdh/serv00-vmess-sock5/main/vps_sb00_alive/sb00-sk5.sh"  # 四合一无交互yutian版，含socks5，无tuic
 #SCRIPT_URL="https://raw.githubusercontent.com/eooce/Sing-box/refs/heads/main/sb_00.sh"  # 四合一无交互老王版，无socks5，含tuic
 VPS_JSON_URL="https://raw.githubusercontent.com/yutian81/Wanju-Nodes/main/serv00-panel3/sb00ssh.json"  # 储存vps登录信息及无交互脚本外部变量的json文件
-REBOOT_URL="https://raw.githubusercontent.com/yutian81/serv00-ct8-ssh/main/reboot.sh"   # 仅支持重启yutian81修改serv00四合一有交互脚本
+REBOOT_URL="https://raw.githubusercontent.com/qmsdh/serv00-vmess-sock5/main/reboot.sh"   # 仅支持重启yutian81修改serv00四合一有交互脚本
 NEZHA_URL="https://nezha.yutian81.top"  # 哪吒面板地址，需要 http(s):// 前缀
 NEZHA_APITOKEN=""  # 哪吒面板的 API TOKEN
 NEZHA_API="$NEZHA_URL/api/v1/server/list"  # 获取哪吒探针列表的api接口，请勿修改

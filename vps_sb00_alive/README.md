@@ -6,7 +6,7 @@
 
 - 也可以支持安装老王原版的四合一无交互脚本，但是需要自己修改代码。因为我的代码里没有TUIC协议，而增加了socks5协议
 
-- 本人修改的[四合一无交互脚本地址](https://github.com/yutian81/serv00-ct8-ssh/blob/main/vps_sb00_alive/sb00-sk5.sh)
+- yutian81修改的[四合一无交互脚本地址](https://github.com/qmsdh/serv00-vmess-sock5/blob/main/vps_sb00_alive/sb00-sk5.sh)
 
 - 必须将你所有的serv00服务器的ssh地址、用户名、密码以及四合一无交互脚本所需的外部变量（如端口等）存入到一个可直链下载的 json 文件，json 内容模板见下文
 
@@ -95,7 +95,7 @@ https://raw.githubusercontent.com/yutian81/serv00/main/alive/sb00ssh.json
 **然后，运行一键安装命令**
 
 ```
-curl -s https://raw.githubusercontent.com/yutian81/serv00-ct8-ssh/main/vps_sb00_alive/sb00_alive.sh -o sb.sh && bash sb.sh
+curl -s https://raw.githubusercontent.com/qmsdh/serv00-vmess-sock5/main/vps_sb00_alive/sb00_alive.sh -o sb.sh && bash sb.sh
 ```
 再次运行输入：`bash sb.sh`即可
 
