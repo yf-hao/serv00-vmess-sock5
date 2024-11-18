@@ -1,5 +1,5 @@
 # 项目说明
-本项目二改于yutian81的项目 [仓库地址](https://github.com/yutian81/serv00-ct8-ssh/) ，选择了一个最稳定的版本进行了存档。
+本项目二改于yutian81的项目 [仓库地址](https://github.com/yutian81/serv00-ct8-ssh/) ，我选择了一个最稳定的版本进行了存档。
 
 在 Serv00 和 CT8 机器上一步到位地安装和配置 vmess+vmess&argo+socks5+哪吒探针，socks5 可用于 cmliu/edgetunnel 项目的`SOCKS5`变量实现反代，帮助解锁 ChatGPT 等服务。
 
