@@ -1,6 +1,6 @@
 # 项目说明
 
-## [博客使用教程](https://blog.qmsdh.com/index.php/archives/35/)
+## [博客看详细使用教程](https://blog.qmsdh.com/index.php/archives/35/)
 
 本项目二改于yutian81的项目 [仓库地址](https://github.com/yutian81/serv00-ct8-ssh/) ，我选择了一个最稳定的版本进行了存档。
 
